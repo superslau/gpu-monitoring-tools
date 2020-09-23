@@ -6,7 +6,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/renaud/gpu-monitoring-tools/bindings/go/nvml"
+	"github.com/renaudwastaken/gpu-monitoring-tools/bindings/go/nvml"
 )
 
 const (

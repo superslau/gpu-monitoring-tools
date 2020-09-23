@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/renaud/gpu-monitoring-tools/bindings/go/dcgm"
+	"github.com/renaudwastaken/gpu-monitoring-tools/bindings/go/dcgm"
 	"github.com/gorilla/mux"
 )
 

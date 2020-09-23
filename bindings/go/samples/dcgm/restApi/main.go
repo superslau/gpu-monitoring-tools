@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/renaud/gpu-monitoring-tools/bindings/go/dcgm"
+	"github.com/renaudwastaken/gpu-monitoring-tools/bindings/go/dcgm"
 )
 
 // res: curl localhost:8070/dcgm/device/info/id/0

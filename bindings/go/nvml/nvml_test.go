@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/renaud/gpu-monitoring-tools/bindings/go/nvml/nvsmi"
+	"github.com/renaudwastaken/gpu-monitoring-tools/bindings/go/nvml/nvsmi"
 )
 
 func check(err error, t *testing.T) {

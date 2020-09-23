@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/renaud/gpu-monitoring-tools/bindings/go/dcgm"
+	"github.com/renaudwastaken/gpu-monitoring-tools/bindings/go/dcgm"
 )
 
 const (
