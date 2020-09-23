@@ -208,6 +208,7 @@ type Device struct {
 	Power                 *uint
 	Memory                *uint64
 	CPUAffinity           *uint
+	Minor                 *int
 	PCI                   PCIInfo
 	Clocks                ClockInfo
 	Topology              []P2PLink
@@ -418,6 +419,7 @@ func newDevice(h handle) (device *Device, err error) {
 			Major: cccMajor,
 			Minor: cccMinor,
 		},
+		Minor: minor,
 	}
 	if power != nil {
 		*device.Power /= 1000 // W
@@ -480,6 +482,7 @@ func newDeviceLite(h handle) (device *Device, err error) {
 		UUID:        *uuid,
 		Path:        path,
 		CPUAffinity: node,
+		Minor:       minor,
 		PCI: PCIInfo{
 			BusID: *busid,
 		},
