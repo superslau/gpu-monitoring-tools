@@ -208,7 +208,7 @@ type Device struct {
 	Power                 *uint
 	Memory                *uint64
 	CPUAffinity           *uint
-	Minor                 *int
+	Minor                 *uint
 	PCI                   PCIInfo
 	Clocks                ClockInfo
 	Topology              []P2PLink
