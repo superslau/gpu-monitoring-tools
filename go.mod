@@ -1,4 +1,4 @@
-module github.com/renaudwastaken/gpu-monitoring-tools
+module github.com/superslau/gpu-monitoring-tools
 
 go 1.14
 
